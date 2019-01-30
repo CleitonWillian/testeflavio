@@ -13,7 +13,7 @@ public class HomeController {
 	@GetMapping("/ping")
 	public Pessoa ping() {
 		
-		return new Pessoa("Flavio", 15);
+		return new Pessoa("Flavio Teste", 15);
 	}
 	
 	
